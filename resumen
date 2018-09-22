@@ -1,0 +1,28 @@
+<html>
+<head>
+<body>
+
+<h1>> Resumen de Programacion con HTML Servlets y JSP </h1>
+
+	<h1> Arquitectura Cliente Sevidor </h1>
+		<p>CLIENTE: es el interesado en interartuar con los programas que existen en internet, el cliente tiene como funcion primordial facilitar la interaccion del usuario. El objetivo basico delcliente en la arquitectura cliente-servidor es facilitar la presentaciony control de la informacionadministrada por la aplicacion </p>
+		
+	<h1>SERVIDOR</h1>
+		<p>Es el responsable de prestar los servicios requeridos por los client, muchos de los lenguajes de programacion han sido utilizados para programar los servidores pero existen ciertas tecnologias diseñadas especificamente para arquitecturas cliente-servidor en internet.
+		El primer modelo de programacion para arquitecturas cliente-servidor en internet fueron los CGI que en la actualidad se han extendido con estandares mas modernos como ASP, ColdFusion PHP </p>
+	<h1>HTML</h1>
+		<p>Fue desarrollado por Teem Berners-Lee simultaneamente a la creacion de la web. HTML es un lenguaje de hipertexto que permite el despliegue de documentos que incluyen ligas con otros documentos</p>
+
+	<h1>FORMAS</h1>
+		<p>Otro aspecto importante de HTML son las formas para insertar datos y presionar botones dentro de una pagina. Esta tarea se hace mediante dos tipos de etiquetas la primera llamada "FORM" para la administracion de la informacion con formato FORM ACTION="url"  y que termina con la etiqueta /FORM .
+		El url indica el archivo donde se encuentra el programa encargado de manipular la informacion de la forma</p>
+		<p>La segunda etiqueta es "INPUT" donde se especifica el tipo de entrada de datos con formato INPUT TYPE="tipo" opciones Los tipos mas importantes que se destacaran son text correspondientes a un cambio de texto "PASSWORD" que corresponde a un campo de texto donde el texto insertado se despliega en la pantalla mediante caracteres codificados </p>
+	<h1>SERVLETS</h1>
+		<P>Como se ha visto hasta el momento los elementos HTML sirven para desplegar informacion en un navegador, algo que en la actualidad esta muy estandarizado. A pesar de incluir fomas para campos de texto y botones estos campos deben ser procesados por herramientas del lado del servidor, tarea que los servidores de tipo HTTP no pueden llevar a cabo. Para ello se requiere de un servidor de aplicacion que puede procesar las acciones generadas en la pagina HTML del navegador.
+		El SERVLET es la tecnologia basica de java para dar servicio de aplicaciones en internet</P>	
+	<h1>JSP</h1>
+		<p>El desarrollador del software es normalmente el resposable de la programacion. Para simplificar la tarea del diseño de pantallas en el cliente bajo la tecnologia de java se creo la tecnologia de java server pages (JSP) la cual agrega un nivel adicional de procesamiento sobre los servlets y simplifica su programacion</p>	
+
+
+</body>
+</html>
